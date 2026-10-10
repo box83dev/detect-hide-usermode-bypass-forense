@@ -1,0 +1,13 @@
+build
+Debug
+Release
+x64
+unhide.exe
+results/*.txt
+results/*.json
+.vs
+.vscode
+*.obj
+*.pdb
+*.ilk
+*.user

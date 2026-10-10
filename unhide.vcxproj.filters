@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\models.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\registry.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\signature.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\processes.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scan\config.cpp">
+      <Filter>src\scan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scan\files.cpp">
+      <Filter>src\scan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scan\compare.cpp">
+      <Filter>src\scan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\detection\modules.cpp">
+      <Filter>src\detection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\detection\hooks.cpp">
+      <Filter>src\detection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\detection\persistence.cpp">
+      <Filter>src\detection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\report\console.cpp">
+      <Filter>src\report</Filter>
+    </ClCompile>
+    <ClCompile Include="src\report\report.cpp">
+      <Filter>src\report</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{D1A2B3C4-1111-4D2E-9F1A-2B3C4D5E6F71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{D1A2B3C4-2222-4D2E-9F1A-2B3C4D5E6F72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{D1A2B3C4-3333-4D2E-9F1A-2B3C4D5E6F73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scan">
+      <UniqueIdentifier>{D1A2B3C4-4444-4D2E-9F1A-2B3C4D5E6F74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\detection">
+      <UniqueIdentifier>{D1A2B3C4-5555-4D2E-9F1A-2B3C4D5E6F75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\report">
+      <UniqueIdentifier>{D1A2B3C4-6666-4D2E-9F1A-2B3C4D5E6F76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{D1A2B3C4-7777-4D2E-9F1A-2B3C4D5E6F77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
